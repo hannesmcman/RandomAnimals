@@ -1,0 +1,29 @@
+{
+	"animals": [
+		{
+			"name": "Dogs",
+			"img": "https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&h=350",
+			"api": {
+				"url": "https://dog.ceo/api/breeds/image/random",
+				"urlProp": "message"
+			}
+		},
+		{
+			"name": "Foxes",
+			"img": "https://images.unsplash.com/photo-1506140609452-9276d0702bd0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=63ae1d2cb8685d4aecd5bdc9c7764d1c&w=1000&q=80",
+			"api": {
+				"url": "https://randomfox.ca/floof",
+				"urlProp": "image"
+			}
+		},
+		{
+			"name": "Cats",
+			"img": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+			"api": {
+				"url": "https://api.thecatapi.com/v1/images/search",
+				"urlProp": "url",
+				"key": "38bfe09e-9deb-4849-aab3-1712c54fd5eb"
+			}
+		}
+	]
+}
